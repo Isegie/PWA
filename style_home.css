@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236, 236, 236);
+    height: 100%;
+  }
+  html{
+    height: 100%;
+  }
+  
+  header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    width: 100%;
+    background: url("le-monde-logotype.png");
+  }
+  article {
+    float: left;
+    padding: 10px;
+    width: 30%;
+    background-color: #ffffff;
+  }
+  .prazniDiv{
+      padding-top: 30px;
+  }
+  section{
+    display: table;
+    clear: both;
+    margin:0 auto;
+    margin-top: 5px;
+    background-color: white;
+    width: 90%;
+    height: 40%;
+  }
+  
+  .slika1 {
+    width: 100%;
+    height: 100%;
+  }
+  .slika2{
+    width: 100%;
+    height: 100%;
+  }
+  .logo-class{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 auto;
+  height: 90px;
+  width: 30%;
+  }
+  .dark-line{
+      border-bottom: 2px solid rgb(0, 0, 0);
+      width: 100%;
+      margin: 0 auto;
+  }
+  .blue-line{
+      border-bottom: 2px solid rgb(27, 144, 253);
+      width: auto;
+  }
+  ul.navigacija {
+    margin: 0 auto;
+    list-style: none; 
+    padding: 0;
+  }
+  ul.navigacija li {
+    display: inline;
+  }
+  
+  ul.navigacija {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  p{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: medium;
+    font-family: sans-serif;
+  }
+  .izbornik{
+    display: table;  
+      margin: 0 auto;
+  }
+  .glavniDiv{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
+    clear: both;
+  }
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+
+    a:link {
+      color: rgb(255, 255, 255)(59, 7, 7);
+    }
+    
+    a:visited {
+      color: green;
+    }
+    
+    a:hover {
+      color: hotpink;
+    }
+  
+    a:active {
+      color: blue;
+    }
+    a:link {
+      text-decoration: none;
+    }
+  }
